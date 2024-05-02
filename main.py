@@ -53,3 +53,14 @@ if __name__ == "__main__":
     return x + y
 
   print(add(1, 2))
+
+  # Type aliases
+
+  from typing import Union
+
+  number = Union[int, float]
+
+  def add(x: number, y: number) -> number:
+    return x + y
+
+  print(add(1, 2))
