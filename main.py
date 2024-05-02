@@ -16,3 +16,11 @@ if __name__ == "__main__":
   """
   To check the syntax for type hints, you neef use a static type checker tool.
   """
+
+  # Using a static type checker tool: mypy
+
+  """
+  pip install mypy
+
+  mypy main.py
+  """

@@ -4,6 +4,18 @@
 
 - Run script
 
-```python
+```bash
 python main.py
+```
+
+- Install package mypy
+
+```bash
+pip install mypy --break-system-packages
+```
+
+- Run mypy with main.py to check type
+
+```bash
+mypy main.py
 ```
