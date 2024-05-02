@@ -24,3 +24,13 @@ if __name__ == "__main__":
 
   mypy main.py
   """
+
+  # Type hinting & type inference
+
+  name: str = "John"
+  name = 100
+  # Error: Incompatible types in assignment
+
+  name = "John"
+  name = 100
+  # Error: Incompatible types in assignment
