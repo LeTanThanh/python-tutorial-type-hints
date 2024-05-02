@@ -34,3 +34,22 @@ if __name__ == "__main__":
   name = "John"
   name = 100
   # Error: Incompatible types in assignment
+
+  # Adding type hints for multiple types
+
+  # def add(x, y):
+  #   return x + y
+
+  # print(add(1, 2))
+
+  # from typing import Union
+
+  # def add(x: Union[int, float], y: Union[int, float]) -> Union[int, float]:
+  #   return x + y
+
+  # print(add(1, 2))
+
+  def add(x: int | float, y: int | float) -> int | float:
+    return x + y
+
+  print(add(1, 2))
