@@ -99,3 +99,10 @@ if __name__ == "__main__":
   from typing import List
 
   ratings: List[int] = [1, 2, 3]
+
+  # None type
+
+  def log(message: str) -> None:
+    print(message)
+
+  log("None")
